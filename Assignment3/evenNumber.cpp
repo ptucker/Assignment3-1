@@ -1,3 +1,7 @@
+//PT -- make sure that newVal is actually even
+//      and again, comments?
+/       16/20
+
 #include "evenNumber.h"
 
 EvenNumber::EvenNumber() {
