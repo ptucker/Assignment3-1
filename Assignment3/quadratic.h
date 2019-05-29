@@ -1,3 +1,7 @@
+//PT -- a,b,c should be private.
+//   -- and where are the comments? You commented Fan well.
+//   15/20
+
 #ifndef quadratic_h
 #define quadratic_h
 
