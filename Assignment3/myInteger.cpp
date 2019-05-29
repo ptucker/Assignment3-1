@@ -10,6 +10,8 @@ int MyInteger::getValue() const {
 	
 
 bool MyInteger::isEven() const { 
+	//PT -- easier check: if (value % 2 == 0)
+	//Also, could this just call your static function (code reuse)?
 	if (value == ((value / 2) * 2)) {
 		return true;
 	}
@@ -26,6 +28,7 @@ bool MyInteger::isOdd() const {
 	}
 }
 bool MyInteger::isPrime() const {
+	//PT -- why 100? You only really need to go to value / 2
 	for (int i = 2; i < 100; i++) {
 		if (value % i == 0 && i != value) {
 			return false;
